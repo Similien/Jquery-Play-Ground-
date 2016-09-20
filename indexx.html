@@ -27,11 +27,15 @@
         <button class="btn btn-default target" id="target5">#target5</button>
         <button class="btn btn-default target" id="target6">#target6</button>
       </div>
-	  <button id="fade">Fade In & Out</button>
+	  
+	  </div>
 	  </div>
     </div>
   </div>
-</div>
+	<div class="row">
+			<div class="col-xs-4">
+				<button id="fade" class=" btn-block btn-primary" >Fade In & Out</button>
+			</div>
 
 				<!-- Only change code below this line. -->
 <!-----------------------------------------------------------------------------
@@ -53,7 +57,7 @@
 		$("#target1").fadeToggle();
 		$("#target2").fadeToggle("slow");
 		$("#target3").fadeToggle(3000);
-		
+		$("#fade").click.css("color","red");
 	});
   });
   
